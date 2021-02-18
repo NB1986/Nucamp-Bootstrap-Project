@@ -1,0 +1,35 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+/* This will target ONLY h2 elements that are descendents of the header element. So it will target our first h2 in the heading but not the rest of them in the page.*/
+header h2 {
+    color: #CEC8FF;
+}
+
+/* This will have 20px for top and bottom padding and 0px for left and right.*/
+footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+/*Up until now, all of these rules have been for HTML elements. Now, jumbotron is a Bootstrap defined class but, we can still write custom ruules for it here. We will add this padding which means to pad 30px on ALL four sides. This will actually decrease the size of the jumbotron in this example. I will also give this a linear gradient that goes from left to right with three color stops. I will also set the default font color to white.*/
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
