@@ -21,8 +21,9 @@ footer {
     padding: 20px 0;
 }
 
-/*Up until now, all of these rules have been for HTML elements. Now, jumbotron is a Bootstrap defined class but, we can still write custom ruules for it here. We will add this padding which means to pad 30px on ALL four sides. This will actually decrease the size of the jumbotron in this example. I will also give this a linear gradient that goes from left to right with three color stops. I will also set the default font color to white.*/
+/*Up until now, all of these rules have been for HTML elements. Now, jumbotron is a Bootstrap defined class but, we can still write custom rules for it here. We will add this padding which means to pad 30px on ALL four sides. This will actually decrease the size of the jumbotron in this example. I will also give this a linear gradient that goes from left to right with three color stops. I will also set the default font color to white. When I added the new navbar, I noticed there was a gap between the navbar and the jumbotron so I added the margin 0 attribute to this class.*/
 .jumbotron {
+    margin: 0;
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
@@ -32,4 +33,8 @@ footer {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+.navbar {
+    background-color: #901CAD;
 }
