@@ -16,7 +16,7 @@ header h2 {
 }
 
 /* This will have 20px for top and bottom padding and 0px for left and right.*/
-footer {
+.site-footer {
     background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
 }
